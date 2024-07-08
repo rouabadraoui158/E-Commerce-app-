@@ -1,28 +1,4 @@
-body{
-  background-color: black;
-}
-h1{
-  text-align: center;
-  color: darkblue;
-  font-size: arial 40px;
-}
-.button-container{
-  display: flex;
-  justify-content: center;
-}
-.button-container button{
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-}
-.button-container button:first-child{
-  background-color:red
-}
-.button-container button:last-child{
-  background-color: green;
-}
-.stopwatch-time{
-  text-align: center;
-  font-size: 80px;
-  color:white;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwindcss/aspect-ratio
